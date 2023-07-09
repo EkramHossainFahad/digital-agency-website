@@ -19,3 +19,52 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner-info{
+    text-align: center;
+}
+.primary{
+    color: #F94C30;
+}
+.title{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.btn{
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #F94C30;
+    color: white;
+    font-size: 15px;
+}
+.bg-primary{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.bg-primary:hover{
+    background-color: #C4C4C4;
+}
