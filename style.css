@@ -68,3 +68,13 @@ a{
 .bg-primary:hover{
     background-color: #C4C4C4;
 }
+
+.service-container{
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,10));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
